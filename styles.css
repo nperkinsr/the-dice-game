@@ -8,7 +8,28 @@
 }
 
 body {
-  background-color: var(--color1);
+  background: radial-gradient(
+        circle,
+        transparent 20%,
+        #f8f2de 20%,
+        #f8f2de 80%,
+        transparent 80%,
+        transparent
+      )
+      0% 0% / 46px 46px,
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #f8f2de 20%,
+        #f8f2de 80%,
+        transparent 80%,
+        transparent
+      )
+      23px 23px / 46px 46px,
+    linear-gradient(#f6e5c7 3px, transparent 3px) 0px -1.5px / 23px 23px,
+    linear-gradient(90deg, #f6e5c7 3px, #f8f2de 3px) -1.5px 0px / 23px 23px #f8f2de;
+  background-size: 46px 46px, 46px 46px, 23px 23px, 23px 23px;
+  background-color: #f8f2de;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
